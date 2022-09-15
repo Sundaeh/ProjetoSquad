@@ -17,7 +17,10 @@ h1, p{
 }
 nav, ul{
     display: flex;
+    flex-wrap:nowrap;
     flex-direction: row;
+    align-items: center;
+    
 }
 li{
     padding: 0 20px;
@@ -25,7 +28,7 @@ li{
 li:hover, h1:hover{
     cursor: pointer;
     opacity: 0.8;
-    background-color: rgb(76, 142, 204);
+    background-color: rgba(41, 117, 217, 0.742);
 }
 @media (max-width:700px) {
     nav{
