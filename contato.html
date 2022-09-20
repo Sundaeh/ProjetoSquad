@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link href="css/contato.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="microempreendedor/css/style.css" rel="stylesheet">
 
 </head>
 <body><!-------------------CÓDIGO PADRÃO DO MENU------------->
     <nav class="navbar">
-        <img src="img/hbsemfundo.png" alt="logo" width="90">
+        <img src="microempreendedor/img/hbsemfundo.png" alt="logo" width="90">
         <div class="logo">
-            <h1><a href ="index.html">HelloBook</a></h1>
+            <h1>HelloBook</h1>
         </div>
-         <li><p><strong><a href="nossaequipe.html">Nossa Equipe</a></strong></p></li>
-         <li><p><strong><a href="quemsomos.html">Quem Somos</a></strong></p></li>
-          <li><p><strong><a href="nossoslivros.html">Nossos Livros</a></strong></p></li>
-         <li><p><strong><a href="contato.html">Contato</a></strong></p></li>
-</div></nav>
+        <div class="search-box">
+            <input type="text" class="search-text" placeholder="Pesquisar...">
+                <img src="microempreendedor/img/lupa2.png" width="30px">
+        </div>
+
+        <div class="menu">
+            <a href="quemsomos.html">Quem somos</a>
+            <a href="nossaequipe.html">Nossa equipe</a>
+            <a href="nossoslivros.html">Nossos livros</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
 <!-----------CÓDIGO DO FORMULÁRIO---------------->
  <div class="contato"><h1>Contato</h1>
 <form><hr>
      <strong><h3><label for="campo_nome">Nome:</label></strong><br><input id="campo_nome" type="text>" placeholder="digite seu nome aqui..."></h3><br>
      <strong><h3><label for="campo_email">Email:</label></strong><br><input id="campo_email" type="email" placeholder="digite seu email aqui..."></h3><br>
      <strong><h3><label for="campo_mensagem">Mensagem:</label></strong><br><input id="campo_mensagem" type="text>" placeholder="digite sua mensagem aqui..."></h3><br><hr>
-     <button onclick="Enviar Ok()">Enviar Mensagem</button><script src="scripts/contato.js"></script> </script>
+     <button onclick=Enviar Ok()">Enviar Mensagem</button><script src="scripts/contato.js"></script> </script>
 </div>
 </form>
 </body>
