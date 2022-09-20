@@ -32,6 +32,11 @@ body{
     font-size: 20px;
 }
 
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
 .search-box{
     background-color: white;
     height: 30px;
@@ -43,7 +48,6 @@ body{
 }
 
 .search-text{
-    background: none;
     border: 0;
     outline: 0;
     font-size: 16px;
@@ -51,12 +55,14 @@ body{
 
 .menu{
     /*Visualizar bordas (border: 1px solid green;)*/
+    border: 1px solid green;
     flex: 50%;
     text-align: right;
     padding: 0 20px;
 }
 
 .menu a{
+    border: 1px solid red;
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
