@@ -1,8 +1,9 @@
+/*-----------CÓDIGO CSS PADRÃO DO MENU---------------*/
 body{
     padding: 0;
     margin: 0;
     font-family: Arial;
-    color: rgb(216, 216, 216);
+    color: black;
 }
 
 .navbar{
@@ -12,17 +13,6 @@ body{
     background: black;
     justify-content: center;
     align-items: center;
-}
-
-.botao{
-    background: rgb(62, 62, 62);
-    color: white;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    word-spacing: 2px;
-    text-transform: capitalize;
-
 }
 
 .logo{
@@ -57,16 +47,17 @@ body{
     /*Visualizar bordas (border: 1px solid green;)*/
     flex: 50%;
     text-align: right;
-    padding: 0 20px;
+    padding: 0px;
 }
 
 .menu a{
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
-    padding: 20px 16px;
+    padding: 20px;
 }
 
 .menu a:hover{
     border-bottom: 4px solid aliceblue;
 }
+/*-----------ENCERRAMENTO DO CÓDIGO PADRÃO DO MENU--------------*/
