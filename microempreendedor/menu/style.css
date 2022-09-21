@@ -87,4 +87,36 @@ body{
     justify-content: space-around;
     margin-top: 100px;
 }
+/*Editando a página Nossa Equipe*/
 
+.imgflex{
+    max-width: 100px;
+    display: block;
+    margin-left: 50px;
+}
+
+.equipe{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px; /*Tamanho máximo do conteiner*/
+    margin: 0 auto;/*Alinhar ao centro quando passar do tamanho do conteiner*/
+    padding: 80px;
+    
+}
+
+.equipe > div{
+    flex: 1 1 100px; /*Expansão máxima, mínima e base do flex*/
+    align-items: center;
+    margin: 20px;
+}
+
+.equipe p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+   
+
+
+}
