@@ -89,6 +89,10 @@ body{
 }
 /*Editando a página Nossa Equipe*/
 
+.equi h1, h2{
+    text-align: center;
+}
+
 .imgflex{
     max-width: 100px;
     display: block;

@@ -1,0 +1,23 @@
+
+.container {
+    display: flex; 
+    align-items: center; /* centalizar ao centro*/
+}
+
+.corpo {
+    width: 960px; /* centralizar img com texto*/
+    margin: auto; /* altura da foto com texto*/
+}
+.conteudo {
+    display: table;
+}
+img, p { 
+    display: inline-block; /* Texto alianhado do lado do outro*/
+
+}
+.texto {
+    display: table-cell;
+    float:left;
+    margin-left: 100px; /* Separa img do texto*/
+}
+
