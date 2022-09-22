@@ -73,19 +73,17 @@ body{
     padding: 8px 5px;
     text-align: center;
     margin-top: 5px;
-    cursor: pointer;
-}
-
-.livro p:hover{
-    color: white;
-    background: black;
-    border-bottom: 4px solid aliceblue;
 }
 
 #livros{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.breve{
+    text-align: center;
 }
 /*Editando a página Nossa Equipe*/
 
@@ -120,6 +118,57 @@ body{
     text-align: center;
     background-color: black;
     border-radius: 50px; 
+}
 
+/*----INÍCIO MENU PRINCIPAL------*/
+@media (max-width: 1188px){
+    .menu{
+        display: flex;
+        background: black;
+    }
+}
 
+@media (max-width: 501px){
+    .menu{
+        display: grid;
+        text-align: left;
+    }
+}
+
+@media (max-width: 590px){
+    .livro img{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 501px){
+    .livro img{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 531px){
+    .search-box{
+        display: grid;
+    }
+}
+
+@media (max-width: 531px){
+    .search-text{
+        display: none;
+    }
+}
+
+/*----menu equipe------*/
+
+@media (max-width: 978px){
+    .equi{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 501px){
+    .equi{
+        margin-top: 250px;
+    }
 }

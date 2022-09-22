@@ -21,3 +21,15 @@ button{
     border: 1px solid white;
     border-radius: 20px;
 }
+
+@media (max-width: 1062px){
+    .contato{
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 501px){
+    .contato{
+        margin-top: 300px;
+    }
+}

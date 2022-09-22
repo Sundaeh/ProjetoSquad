@@ -4,4 +4,9 @@ button{
     width: 200px;
     border: 1px solid white;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #23cf5c;
 }

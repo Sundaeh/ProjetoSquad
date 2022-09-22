@@ -2,12 +2,20 @@
     float: left;
 }
 
-p{
-    text-align: left;
-    padding-left: 600px;
-    margin-right: 10%;
-}
-
 h1{
     text-align: center;
+}
+
+@media (max-width: 590px){
+    .container img{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 501px){
+    .container img{
+        width: 100%;
+        margin-top: 210px;
+    }
 }
