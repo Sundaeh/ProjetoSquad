@@ -8,6 +8,7 @@
     <meta name="keywords" content="Livraria, css e html">
     <title>HelloBook</title>
     <link href="./menu/style.css" rel="stylesheet">
+    <link href="menu/comprar.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/hp.jpg" type="image/x-icon">
 </head>
 <body><!-------------------CÓDIGO PADRÃO DO MENU------------->
@@ -17,7 +18,7 @@
             <a href="index.html">
                 <h1>HelloBook</h1>
             </a>
-        </div>
+        </div><!--------códgo para barra de pesquisa---------------->
         <div class="search-box">
             <input type="text" class="search-text" placeholder="Pesquisar...">
                 <img src="./img/lupa2.png" width="30px">
@@ -34,16 +35,16 @@
 <section id="livros">
     <section class="livro">
         <img src="./img/livro JavaScript.jpg" width="220px" alt="livro">
-        <p>JavaScript: O guia definitivo</p>
+        <p>JavaScript: O guia definitivo</p><button onclick="comprar()">COMPRAR</button>
     </section>
     <section class="livro">
         <img src="./img/Livro java script 2.jpg" width="220px" alt="livro">
-        <p>JavaScript: Programador</p>
+        <p>JavaScript: Programador</p><button onclick="comprar()">COMPRAR</button>
     </section>
     <section class="livro">
         <img src="./img/livros css.jpg" width="240px" alt="livro">
-        <p>Construindo sites com CSS e (X)HTML</p>
+        <p>Construindo sites com CSS e (X)HTML</p><button onclick="comprar()">COMPRAR</button>
     </section>
-</section>
+</section><script src="scriptContato/contato.js"></script>
 </body>
 </html>
