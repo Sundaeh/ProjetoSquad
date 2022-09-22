@@ -172,3 +172,17 @@ body{
         margin-top: 250px;
     }
 }
+
+/*----menu nossos livros------*/
+
+@media (max-width: 978px){
+    .breve{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 978px){
+    .breve{
+        margin-top: 250px;
+    }
+}
