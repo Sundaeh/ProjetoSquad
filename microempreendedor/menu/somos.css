@@ -6,6 +6,18 @@ h1{
     text-align: center;
 }
 
+p{
+    line-height: 1.7;
+    font-size: large;
+    font-family:cursive;
+}
+
+@media (max-width: 978px){
+    .somos{
+        margin-top: 130px;
+    }
+}
+
 @media (max-width: 590px){
     .container img{
         width: 100%;
